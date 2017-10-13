@@ -1,0 +1,32 @@
+{
+  "name": "TD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ts-node ./Server/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "box2dweb": "^2.1.0-b",
+    "es6-shim": "^0.35.3",
+    "express": "^4.15.3",
+    "mysql": "^2.14.1",
+    "pixi.js": "^4.3.4",
+    "reflect-metadata": "^0.1.10",
+    "socket.io": "^2.0.3",
+    "typedi": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/box2d": "0.0.31",
+    "@types/node": "^7.0.34",
+    "@types/pixi.js": "^4.4.0",
+    "script-loader": "^0.7.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "@types/mysql": "0.0.33"
+  }
+}

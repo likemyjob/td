@@ -1,0 +1,10 @@
+import 'es6-shim';
+import 'reflect-metadata';
+import {Network} from './Network';
+import {Render} from './Render';
+import 'es6-shim';
+import 'reflect-metadata';
+import 'pixi.js';
+import {Container} from 'typedi';
+let network = Container.get(Network);
+let render = Container.get(Render);
